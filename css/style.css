@@ -1,7 +1,3 @@
-body {
-
-}
-
 header,
 main,
 footer {
@@ -10,7 +6,7 @@ footer {
 }
 
 header {
-    background-color: red;
+    background-color: cornsilk;
     padding: 1.5rem;
 }
 
@@ -27,4 +23,8 @@ h1 {
     font-size: 2.4rem;
     color: black;
     text-align: center;
+}
+
+footer {
+    background-color: cornsilk;
 }
