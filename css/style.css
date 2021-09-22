@@ -16,7 +16,7 @@ header img {
 
 header img {
     width: 200px;
-    height: auto;
+    height: 275px;
 }
 
 h1 {
@@ -27,4 +27,5 @@ h1 {
 
 footer {
     background-color: cornsilk;
+    text-align: center;
 }

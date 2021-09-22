@@ -1,5 +1,4 @@
-const copyrightyear = document.getElementById("copyrightyear");
-copyrightyear.textContent = new Date().getFullYear;
+document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
 
-alert(document.lastModified);
-let oLastModif = new Date(document.lastModified);
+let update = document.lastModified;
+document.getElementById("lastModified").innerHTML = update;

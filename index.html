@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aston Cook's Assignment Outlook</title>
-    <meta name="description" content="~155 characters summarizign with keywords the page content - on page SEO">
+    <meta name="description" content="This page includes my assignments and my assignment overview for this semester in WDD 230">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/dates.js"></script>
+    <script src="js/dates.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,17 +23,8 @@
         </ul>
     </main>
     <footer>
-        &copy; <span>
-            <script type="text/javascript">
-                document.write(new Date().getFullYear());
-            </script>
-        </span> | Aston Cook | Texas | <a href="https://www.byui.edu/online">BYU Idaho Online Learning</a></p>
-        <span>Last Update: <script type="text/javascript">
-            function lastModified() {
-                document.write(document.lastModified);
-            }
-            lastModified()
-            </script></span>
+        <p>&copy; <span id="copyrightyear"></span> | Aston Cook | Texas | <a href="https://www.byui.edu/online">BYU Idaho Online Learning</a></p>
+        <p>Last Update:<span id="lastModified" ></span></p>
     </footer>
 </body>
 </html>
