@@ -1,10 +1,11 @@
 body {
     font-size: 16px;
     font-family: 'Noto Serif', serif;
+    padding: 10px;
+    margin: auto;
 }
 
 main {
-    max-width: 767px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -14,7 +15,7 @@ main {
 main section {
     margin: 0.5rem;
     border: 1px solid #bbb;
-    padding: 0 1rem;
+    padding: 5px;
     background-color: cornsilk;
 }
 
@@ -25,8 +26,33 @@ main section:nth-child(2) {
 
 footer {
     text-align: center;
+    border-radius: 25px;
+    padding: 20px;
 }
 
 header {
     text-align: center;
+    border-radius: 25px;
+    padding: 10px;
 }
+
+h3{
+    border-radius: 25px;
+    color: black;
+    background-color: cornsilk;
+    padding: 3px;
+    text-align: center;
+  }
+
+  h2{
+    border-radius: 25px;
+    color: black;
+    background-color:  cornsilk;
+    padding: 3px;
+    text-align: center;
+  }
+
+  a {
+    text-align: center;
+    font-size: 14px;
+  }
