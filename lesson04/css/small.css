@@ -1,0 +1,90 @@
+body {
+    font-family: 'Noto Serif', serif;
+	padding: 0;
+	margin: 0;
+}
+.sub {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: black;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+	display: block;
+	margin: 0px auto;
+	border: 1px dashed black;
+	padding: 15px;
+	background-color: white;
+	color: grey;
+	font-style: italic;
+}
+header {
+	background-color: grey;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header img {
+	width: 80px;
+	height: auto;
+}
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+.heading h1{
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+header,
+footer {
+	background-color: grey;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	text-align: center;
+	color: black;
+}
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: grey;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
+footer {
+	height: 4rem;
+}
