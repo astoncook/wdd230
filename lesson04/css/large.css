@@ -66,4 +66,7 @@
 		color: grey;
 		background-color: #fff; 
 	}
+	footer {
+		height: 8em;
+	}
 }

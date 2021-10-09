@@ -20,11 +20,7 @@ body {
 	font-style: italic;
 }
 header {
-	background-color: grey;
 	padding: 5px 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 header img {
 	width: 80px;
@@ -42,7 +38,7 @@ header,
 footer {
 	background-color: grey;
 	display: flex;
-	flex-flow: column;
+	flex-flow: row;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
@@ -86,5 +82,5 @@ nav {
 	display: block;
 }
 footer {
-	height: 4rem;
+	height: 5rem;
 }

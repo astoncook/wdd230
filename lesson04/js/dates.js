@@ -1,11 +1,8 @@
-document.getElementById("copyrightyear").innerHTML = new Date().getFullYear();
+// get a new date (locale machine date time)
+var date = new Date();
+// get the date as a string
+var n = date.toDateString();
+// get the time as a string
+var time = date.toLocaleTimeString();
 
-const options = {
-    weekday: "long",
-    day: "short",
-    month: "medium",
-    year: "numeric"
-}
-
-let update = document.lastModified;
-document.getElementById("lastModified").innerHTML = update;
+document.getElementById('date').innerHTML = n + ' ' + time;
