@@ -67,7 +67,7 @@
 		background-color: #fff; 
 	}
 	footer {
-		height: 10em;
+		height: auto;
 	}
 	.column-col {
 		border-bottom: 1px solid #333;
@@ -116,21 +116,21 @@
 		color: white;
 	}
 	.column img {
-		width: 25%;
+		width: 75%;
 	}
 	.hero-img {
 		margin: 10px auto;
 		background-color: #eee;
 		border: 1px solid #333;
 		width: 100%;
-		height: 350px;
+		height: auto;
 	}
 	.herodiv {
 		margin: 10px auto;
 		position: relative;
 		border: 1px grey;
 		width: 960px;
-		height: 300px;
+		height: auto;
 	}
 	.forcast {
 		position: absolute;
@@ -141,45 +141,29 @@
 		padding: .5rem;
 		box-shadow: 0 0 30px #777;
 	}
-	.articlediv p{
-		margin: 10px auto;
-		border: 1px grey;
-		width: 960px;
-		height: 345px;
-		margin: 10px auto;
-		background-color: #eee;
-		border: 1px solid #333;
-	}
 	.articlediv img {
-		width: 250px;
-		height: 250px;
+		width: 350px;
+		height: auto;
 		float: right;
 		padding: .2rem;
 		box-shadow: 0 0 30px #777;
 	}
-	.articlediv h2, h3 {
-		text-align: left;
-		height: 50px;
+	.articlediv {
+		height: auto;
 		width: 960px;
 		margin: 10px auto;
 		border: 1px grey;
-		margin: 10px auto;
 		background-color: #eee;
-		border: 1px solid #333;
 	}
-	.contactdiv p{
-		text-align: center;
-		width: auto;
+	.contactdiv {
+		text-align: right;
+		width: 100%;
 		height: auto;
 		background-color: lightgray;
 		font-size: 14px;
 	}
 	.contactdiv img {
-		padding: auto;
-		display: block;
-  		margin-left: 0;
-  		margin-right: auto;
-  		width: 700px;
-		height: 500px;
+		width: 80%;
+		height: auto;
 	}
 }

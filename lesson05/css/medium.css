@@ -1,3 +1,12 @@
 @media only screen and (min-width: 32.5em) {
-	
+	.column {
+		width: 60%;
 	}
+	.articaldiv img{
+		float: right;
+	}
+	.contactdiv img {
+		float: left;
+		width: 600px;
+	}
+}
