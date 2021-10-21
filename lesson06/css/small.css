@@ -20,12 +20,6 @@ body {
 	color: grey;
 	font-style: italic;
 }
-#friday {
-	background-color: yellow;
-	text-align: center;
-	font-size: 22px;
-	padding: 1rem;
-}
 header {
 	padding: 5px 0;
 }
