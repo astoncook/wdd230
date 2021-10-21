@@ -61,8 +61,8 @@ h2 {
 	margin: 10px auto;
 	position: relative;
 	border: 1px grey;
-	width: 960px;
-	height: 300px;
+	width: 100%;
+	height: auto;
 }
 .forcast {
 	position: absolute;
