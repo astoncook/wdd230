@@ -14,4 +14,9 @@
 		padding: 3rem;
 		margin-top: 3rem;
 	}
+	.forcast {
+		font-size: 14px;
+		top: 25px;
+		left: 25px;
+	}
 }
