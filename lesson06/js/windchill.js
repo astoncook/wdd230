@@ -1,4 +1,4 @@
-let Temp = document.getElementById('tempature').textContent;
+let Temp = document.getElementById('temperature').textContent;
 let speedW = document.getElementById('windspeed').textContent;
 
 if(Temp <= 50 && speedW >= 3){
