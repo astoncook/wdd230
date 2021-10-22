@@ -10,4 +10,8 @@
 		width: 300px;
 		display: block;
 	}
+	.contactinfo {
+		padding: 3rem;
+		margin-top: 3rem;
+	}
 }

@@ -176,11 +176,18 @@ footer {
 	width: 25%;
 }
 .contactdiv {
-	text-align: center;
 	background-color: lightgray;
+	width: auto;
+	height: auto;
 	font-size: 14px;
 	padding: 1rem;
+	display: flex;
+	margin: 10px auto;
+	text-align: center;
+}
+.contactinfo {
+	margin: 0 auto;
 }
 .contactdiv img {
-	display: none;
+	width: 0px;
 }

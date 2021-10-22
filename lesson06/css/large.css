@@ -156,14 +156,15 @@
 		background-color: #eee;
 	}
 	.contactdiv {
-		text-align: right;
 		width: 100%;
 		height: auto;
 		background-color: lightgray;
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.contactdiv img {
-		width: 300px;
+		width: 400px;
 		height: auto;
+		padding: 1rem;
+		margin-left: 1rem;
 	}
 }
