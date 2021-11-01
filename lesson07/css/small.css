@@ -1,4 +1,4 @@
-body {
+* {
     font-family: 'Noto Serif', serif;
 	padding: 0;
 	margin: 0;
@@ -85,7 +85,7 @@ nav {
 	display: block;
 }
 footer {
-	height: 10rem;
+	height: auto;
 }
 main {
     display: grid;

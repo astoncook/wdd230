@@ -66,9 +66,6 @@
 		color: grey;
 		background-color: #fff; 
 	}
-	footer {
-		height: auto;
-	}
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
 		font-size: 1.7rem;
@@ -76,9 +73,5 @@
 	main picture:hover {
 		box-shadow: 15px 5px 8px grey;
 		background-color: grey;
-	}
-	main picture {
-		border: grey;
-		border-style: solid;
 	}
 }
