@@ -110,10 +110,10 @@ body {
 	font-size: 16px;
 }
 form fieldset {
-	margin: 1.5rem 0 1rem 0;
+	margin: auto;
 	border: 2px solid rgb(33, 165, 209);
 	border-radius: 10px;
-	padding: 0.75rem 3%;
+	padding: 0.75rem;
 	max-width: 25rem;
 	background-color: rgb(118, 200, 228);
 	font-size: 1.1rem;
@@ -142,7 +142,7 @@ form fieldset {
 	border: solid 1px rgb(14, 110, 199);
 	border-radius: 4px;
 	padding: 0.75rem;
-	width: 90%;
+	width: 100%;
 	max-width: 20rem;
 	background-color: #FFFFFF;
   }
@@ -180,7 +180,6 @@ form fieldset {
 	background-color: lightblue;
 	padding: 1rem;
 	text-align: center;
-	margin-left: 10px;
 	border-radius: 10px;
   }
   
