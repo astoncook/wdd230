@@ -111,10 +111,9 @@ body {
 }
 form fieldset {
 	margin: auto;
-	border: 2px solid rgb(33, 165, 209);
+	border: 2px solid grey;
 	border-radius: 10px;
-	padding: 0.75rem;
-	max-width: 25rem;
+	max-width: 24rem;
 	background-color: rgb(118, 200, 228);
 	font-size: 1.1rem;
   }
@@ -139,11 +138,12 @@ form fieldset {
   form label.top select {
 	-webkit-appearance: none;
 	display: block;
-	border: solid 1px rgb(14, 110, 199);
+	border: solid 1px grey;
 	border-radius: 4px;
 	padding: 0.75rem;
 	width: 100%;
 	max-width: 20rem;
+	margin: auto;
 	background-color: #FFFFFF;
   }
   
@@ -153,6 +153,7 @@ form fieldset {
   
   form input[type="textarea"] {
 	height: 10rem;
+	margin: auto;
   }
   
   form label.top input:required {
