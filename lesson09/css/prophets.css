@@ -26,21 +26,22 @@ p {
 }
 
 section img {
-    width: 100%;
+    box-shadow: 0 0 25px grey;
+    width: 75%;
 }
 
 div {
-    box-shadow: 0 0 25px #32292F;
+    box-shadow: 0 0 25px grey;
     display: grid;
     grid-template-columns: 1fr;
     padding: .5rem;
 }
 
 section {
-    border: 2px solid #124559;
-    margin: .125rem;
-    background-color: #EFF6E0;
-    padding: .5rem;
+    border: 1px solid black;
+    margin: .25rem;
+    background-color: white;
+    padding: .75rem;
 }
 
 @media only screen and (min-width: 32.5em) {
