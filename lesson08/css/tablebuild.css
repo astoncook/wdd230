@@ -16,8 +16,7 @@ td {
     border: 1px solid rgb(153, 153, 153);
     padding: 8px 12px;
 }
-th,
-.normal-font {
+th, #white-font {
     background-color: #628ca6;
     color: white;
 }
@@ -31,10 +30,10 @@ thead th {
     font-size: 1.5rem;
 }
 tr:nth-child(even) {
-    background-color: white;
+    background-color: #e7ffed;
 }
 tr {
-    background: white;
+    background: #e7ffed;
 }
 tfoot {
     font-size: .8rem;
