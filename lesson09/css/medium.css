@@ -35,7 +35,7 @@
 	
 	  div.events img {
 		max-width: auto;
-		box-shadow: 0px 0px 30px #05547ed3;
+		box-shadow: 0px 0px 30px grey;
 		display: inline;
 		margin: 0 50px 0 15px;
 	  }
