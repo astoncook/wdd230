@@ -8,23 +8,23 @@
 		padding: 3rem;
 		margin-top: 3rem;
 	}
-	div.town_section {
+	div.town_information {
 		display: flex;
 		flex-wrap: wrap;
 	  }
 	
-	  div.town_section section {
+	  div.town_information section {
 		text-align: left;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
 	  }
 	
-	  div.town_section section:nth-child(even) {
+	  div.town_information section:nth-child(even) {
 		flex-direction: row-reverse;
 	  }
 	
-	  div.town_section section img {
+	  div.town_information section img {
 		margin: 0 auto;
 	  }
 	

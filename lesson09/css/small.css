@@ -115,25 +115,25 @@ footer {
 .contactdiv img {
 	width: 0px;
 }
-div.town_section section {
+div.town_information section {
 	border: 2px solid black;
 	background-color: grey;
 	margin: 10px;
 	padding: 1rem;
 	text-align: center;
   }
-  div.town_section section img {
+  div.town_information section img {
 	max-width: 275px;
 	display: block;
 	margin: 0 auto;
   }
   
-  div.town_section section h2 {
+  div.town_information section h2 {
 	padding: .5rem 0 .1rem 0;
 	color: white;
   }
   
-  div.town_section section h3 {
+  div.town_information section h3 {
 	font-size: .75rem;
 	font-style: italic;
   }
