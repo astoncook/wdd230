@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <meta name="description" content="This page includes my week 9 index page.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/dates.js" defer></script>
+    <script src="js/nav.js" defer></script>
+    <script src="js/images.js" defer></script>
+    <script src="js/lastvisit.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <picture><img src="images/thedroplogo.webp" alt="Logo"></picture>
+        <section class="heading">
+            <h1>The Drop</h1>
+            <q class="sub">Keeping you dry since 2021!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="menu" href="#">Menu</a></li>
+            <li><a href="preston-4.html">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="/wdd230/lesson08/stormcenter.html">Storm Center</a></li>
+            <li><a href="/wdd230/lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="herodiv">
+            <picture>
+                <source media="(max-width: 500px)"
+                srcset="images/hero-small.jpg">
+                <source media="(max-width: 950px)"
+                srcset="images/hero-medium.jpg">
+                <source media="(max-width: 1100px)"
+                srcset="images/hero-large.jpg">
+                <img src="images/hero-large.jpg" alt="hero week 9 image">
+            </picture>
+            <h2>Current Weather</h2>
+          <div class="weather_summary">  
+            <h3>Soda Springs</h3>
+            <div class="weeather-update"><p>Current Temp: </p><div>70</div><p>&#176;F</p></div>
+            <img src="images/sun.jpg" alt="sunny">
+            <h3>Fish Haven</h3>
+            <div class="weeather-update"><p>Current Temp: </p><div>70</div><p>&#176;F</p></div>
+            <img src="images/sun.jpg" alt="sunny">
+            <h3>Preston</h3>
+            <div class="weeather-update"><p>Current Temp: </p><div>70</div><p>&#176;F</p></div>
+            <img src="images/sun.jpg" alt="sunny">
+          </div>
+      <div class="town_section"></div>
+      <div class="events">
+          <h2>Upcoming Events</h2>
+      <img src="images/town-events.jpg" alt="town celebration">
+      <div class="town_events"></div>
+    </div>
+        <div class="contactdiv">
+            <img src="images/map.jpg" alt="map image">
+            <div class="contactinfo">
+            <p>The Drop</p>
+            <p>📍 30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <ul></ul>
+            <p>📱 999-999-9999</p>
+            <p>📧 thedrop@gmail.com</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;TheDrop | BYU-Idaho | Aston Cook<br>
+        Current Date: <span id="date"></span></p>
+    </footer>
+</body>
+</html>

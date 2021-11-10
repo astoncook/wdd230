@@ -1,0 +1,194 @@
+body {
+    font-family: 'Noto Serif', serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.sub {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: black;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+	display: block;
+	margin: 0px auto;
+	border: 1px dashed black;
+	padding: 15px;
+	background-color: white;
+	color: grey;
+	font-style: italic;
+}
+header {
+	padding: 5px 0;
+}
+header img {
+	width: 80px;
+	height: auto;
+}
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+.heading h1{
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+header,
+footer {
+	background-color: grey;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	text-align: center;
+	color: black;
+}
+
+.herodiv {
+	margin: 10px auto;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: grey;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
+footer {
+	height: 10rem;
+}
+
+.weather-img {
+	border-radius: 100px;
+	padding: 0.25rem;
+}
+
+.contactdiv {
+	background-color: lightgray;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	padding: 1rem;
+	display: flex;
+	margin: 10px auto;
+	text-align: center;
+}
+.contactinfo {
+	margin: 0 auto;
+}
+.contactdiv img {
+	width: 0px;
+}
+div.town_section section {
+	border: 2px solid #f5ac25;
+	background-color: #f5ac251a;
+	margin: 10px;
+	padding: 1rem;
+	text-align: center;
+  }
+  div.town_section section img {
+	max-width: 275px;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  div.town_section section h2 {
+	padding: .5rem 0 .1rem 0;
+	color: #05547e;
+  }
+  
+  div.town_section section h3 {
+	font-size: .75rem;
+	font-style: italic;
+  }
+  
+  div.events img {
+	display: none;
+  }
+  
+  .events ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+  }
+  
+  .events ::marker {
+	color: #05547e;
+  }
+  
+  .events h4 {
+	color: #05547e;
+	margin-bottom: .55rem;
+  }
+  
+  .weather_summary {
+	display: grid;
+	background-image: linear-gradient(#05547e44,#05547e17);
+	grid-template-columns: 1fr 1fr auto;
+	grid-gap: 10px;;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 30px #05547ed3;
+	padding: 1rem;
+  }
+  
+  .weather_summary h3 {
+	grid-column: 1 / 2;
+	padding: .15rem;
+	font-size: 1.1rem;
+	margin-left: .25rem;
+  }
+  
+  .weather_summary img {
+	max-width: 64px;
+	margin: 0 auto;
+  }
+  .weather_summary .weather-update {
+	display: inline-flex;
+  }
+  
+  .weather_summary .weather-update div {
+	margin: 1rem 0;
+	font-size: .85rem;
+	margin-left: 2px;
+  }
+  
+  .weather_summary .weather-update p {
+	margin: 1rem 0;
+	font-size: .85rem;
+  }

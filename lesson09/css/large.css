@@ -1,0 +1,115 @@
+@media only screen and (min-width: 60em) {
+	header img {
+		width: 125px;
+	}
+
+	.heading h1 {
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	.sub {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 17px;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	main h1 {
+		text-align: center;
+		font-size: 30px;
+	}
+	.contentbox {
+		font-size: 18px;
+		text-align: center;
+		width: 767px;
+	}
+	nav {
+		text-align: center;
+		width: 100%;
+		float: left;
+		margin: 0 0 1em 0;
+		padding: 0;
+	}
+	nav ul {
+		list-style: none;
+		width: 725px;
+		margin: 0 auto;
+		padding: 0; 
+	}
+	nav li {
+		float: left; 
+	}
+	nav li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: white;
+		border-right: 1px solid #ccc; 
+	}
+	nav li:first-child a {
+		border-left: 1px solid #ccc; 
+	}
+	nav li a:hover {
+		color: grey;
+		background-color: #fff; 
+	}
+	footer {
+		height: auto;
+	}
+	.herodiv {
+		margin: 10px auto;
+		position: relative;
+		border: 1px grey;
+		width: 960px;
+		height: auto;
+	}
+	.contactdiv {
+		width: 100%;
+		height: auto;
+		background-color: lightgray;
+		font-size: 18px;
+	}
+	.contactdiv img {
+		width: 400px;
+		height: auto;
+		padding: 1rem;
+		margin-left: 1rem;
+	}
+	.forcast {
+		font-size: 18px;
+		top: 50px;
+		left: 50px;
+	}
+	div.town_section {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: center;
+	  }
+	  
+	  div.town_section section {
+		display: grid;
+		grid-template-columns: auto;
+		width: auto;
+	  }
+	  
+	  div.town_section h2 {
+		font-size: 1.87rem;
+	  }
+	  
+	  div.town_section section img {
+		margin: 0 auto;
+	  }
+}
