@@ -11,58 +11,58 @@
 	div.town_information {
 		display: flex;
 		flex-wrap: wrap;
-	  }
+	}
 	
-	  div.town_information section {
+	div.town_information section {
 		text-align: left;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
-	  }
+	}
 	
-	  div.town_information section:nth-child(even) {
+	div.town_information section:nth-child(even) {
 		flex-direction: row-reverse;
-	  }
+	}
 	
-	  div.town_information section img {
+	div.town_information section img {
 		margin: 0 auto;
-	  }
+	}
 	
-	  div.events {
+	div.events {
 		margin-bottom: 5rem;
 		text-align: center;
-	  }
+	}
 	
-	  div.events img {
+	div.events img {
 		max-width: auto;
 		box-shadow: 0px 0px 30px grey;
 		display: inline;
 		margin: 0 50px 0 15px;
-	  }
+	}
 	
-	  div.events ul {
+	div.events ul {
 		margin-left: 20px;
 		list-style-position: inside;
 		line-height: 1.25;
-	  }
+	}
 	
-	  .weather_summary {
+	.weather_summary {
 		width: fit-content;
 		margin: 0 0 2rem 1rem;
     	margin-left: auto;
    	 	margin-right: auto;
     	width: 50%;
-	  }
+	}
 	
-	  .weather_summary h3 {
+	.weather_summary h3 {
 		font-size: 1.5rem;
-	  }
+	}
 	  
-	  .weather_summary .weather-update div {
+	.weather_summary .weather-update div {
 		font-size: 1rem;
-	  }
+	}
 	  
-	  .weather_summary .weather-update p {
+	.weather_summary .weather-update p {
 		font-size: 1rem;
-	  }
+	}
 }
