@@ -94,10 +94,6 @@ footer {
 	height: 10rem;
 }
 
-.weather-img {
-	border-radius: 100px;
-	padding: 0.25rem;
-}
 
 .contactdiv {
 	background-color: lightgray;
@@ -114,47 +110,7 @@ footer {
 }
 .contactdiv img {
 	width: 0px;
-}
-div.town_information section {
-	border: 2px solid black;
-	background-color: grey;
-	margin: 10px;
-	padding: 1rem;
-	text-align: center;
-}
-div.town_information section img {
-	display: block;
-	margin: 0 auto;
-}
-  
-div.town_information section h2 {
-	padding: .5rem 0 .1rem 0;
-	color: white;
-}
-  
-div.town_information section h3 {
-	font-size: .75rem;
-	font-style: italic;
-}
-  
-div.events img {
-	display: none;
-}
-  
-.events ul {
-	margin: 0 0 0 20px;
-	padding: 0;
-}
-  
-.events ::marker {
-	color: black;
-}
-  
-.events h4 {
-	color: black;
-	margin: .75rem;
-}
-  
+} 
 .weather_summary {
 	display: grid;
 	
@@ -191,3 +147,43 @@ div.events img {
 	margin: 1rem 0;
 	font-size: .75rem;
 }
+.weather-img {
+	border-radius: 100px;
+	padding: 0.25rem;
+}
+.dayheading {
+	display: none;
+	text-align: center;
+}
+  
+.weekforecast {
+	display: none;
+}
+  
+.wsummary {
+	background: radial-gradient(grey, lightgray);
+	border: 1px solid black;
+	box-shadow: 0 0 30px black;
+	opacity: 0.94;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+  
+.wsummary h3 {
+	grid-column: 1 / 3;
+	text-align: center;
+	text-decoration: underline;
+	margin: 15px 10px 0px 10px;
+} 
+.wsummary ul {
+	list-style-type: none;
+	line-height: 1.5rem;
+}
+  
+.summaryname {
+	text-align: right;
+}
+.summaryvalues {
+	padding-left: 5px;
+}
+  
