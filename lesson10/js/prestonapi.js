@@ -2,13 +2,9 @@
 let tempF = document.querySelector("#tempF");
 let windSpeed = parseFloat(document.querySelector("#windspeed").innerText);
 
-console.log(tempF);
-
 function windChill(tempF, windSpeed) {
   return 35.74 +
-    0.6215 * tempF -
-    35.75 * Math.pow(windSpeed, 0.16) +
-    0.4275 * tempF * Math.pow(windSpeed, 0.16);
+    0.6215 * tempF - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * tempF * Math.pow(windSpeed, 0.16);
 }
 
 // Getting the current weather conditions
@@ -27,7 +23,7 @@ fetch(apiURLcurrent)
   // displays either the wind chill or N/A
   if (jsObject.main.temp <= 50 && jsObject.wind.speed >= 3) {
       chill = windChill(jsObject.main.temp, jsObject.wind.speed);
-      document.querySelector("#windchill").textContent = chill;
+      document.querySelector("#windchill").textContent = chill.toFixed(0);
   }
   else {
       document.querySelector("#windchill").textContent = 'N/A';
