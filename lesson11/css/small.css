@@ -1,0 +1,307 @@
+body {
+    font-family: 'Noto Serif', serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.sub {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: black;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+.contentbox {
+	display: block;
+	margin: 0px auto;
+	border: 1px dashed black;
+	padding: 15px;
+	background-color: white;
+	color: grey;
+	font-style: italic;
+}
+header {
+	padding: 5px 0;
+}
+header img {
+	width: 80px;
+	height: auto;
+}
+.heading {
+	display: flex;
+	flex-direction: column;
+}
+.heading h1{
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+header,
+footer {
+	background-color: grey;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+h1 {
+	font-size: 1.1rem;
+}
+h2 {
+	text-align: center;
+	color: black;
+}
+
+.herodiv {
+	margin: 10px auto;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: grey;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+.responsive li {
+	display: block;
+}
+footer {
+	height: auto;
+	text-align: center;
+}
+
+/* gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+	font-size: 1rem;
+	width: 100%;
+}
+
+.gallery [data-src] {
+    filter: blur(.2em);
+}
+
+.gallery {
+    filter: blur(0em);
+    transition: filter 2s;
+}
+
+.gallery-heading {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+/*storm center*/
+.stormcenter {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+	font-size: 1rem;
+	width: 100%;
+}
+.stormcenter-body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+form fieldset {
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 10px;
+	max-width: 24rem;
+	background-color: rgb(118, 200, 228);
+	font-size: 1.1rem;
+  }
+  
+  legend {
+	background-color: rgb(118, 200, 228);
+	color: black;
+	padding: 10px 15px;
+	border-radius: 5px;
+	}
+  
+  form label.top,
+  form div,
+  .slider, form .label {
+	display: block;
+	padding-top: 1rem;
+	color: black;
+	font-weight: bold;
+  }
+  
+  form label.top input,
+  form label.top select {
+	-webkit-appearance: none;
+	display: block;
+	border: solid 1px grey;
+	border-radius: 4px;
+	padding: 0.75rem;
+	width: 100%;
+	max-width: 20rem;
+	margin: auto;
+	background-color: #FFFFFF;
+  }
+  
+  .label {
+	margin: 0;
+  }
+  
+  form input[type="textarea"] {
+	height: 10rem;
+	margin: auto;
+  }
+  
+  form label.top input:required {
+	border-left: black solid 10px ;
+  }
+  
+  form label.top input:required:invalid {
+	background-color: white;
+  }
+  
+  .slider {
+	display: flex;
+  }
+  
+  input[name="stormseverity"] {
+	margin: 0 .5rem;
+  }
+  
+  .extrainfo {
+	font-size: .75rem;
+	font-style: italic;
+  }
+  
+  input[type="submit"] {
+	background-color: lightblue;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 10px;
+  }
+  
+  form label.sbs {
+	padding-top: 0;
+	color: black;
+  }
+/* end storm center */
+.contactdiv {
+	background-color: lightgray;
+	width: auto;
+	height: auto;
+	font-size: 14px;
+	padding: 1rem;
+	display: flex;
+	margin: 10px auto;
+	text-align: center;
+}
+.contactinfo {
+	margin: 0 auto;
+}
+.contactdiv img {
+	width: 0px;
+} 
+.weather_summary {
+	display: grid;
+	
+	grid-template-columns: 1fr 1fr auto;
+	grid-gap: 10px;;
+	align-items: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 30px grey;
+	padding: 1rem;
+}
+  
+.weather_summary h3 {
+	grid-column: 1 / 2;
+	padding: .2rem;
+	font-size: 1rem;
+	margin-left: .25rem;
+}
+  
+.weather_summary img {
+	max-width: 60px;
+	margin: 0 auto;
+}
+  .weather_summary .weather-update {
+	display: inline-flex;
+}
+  
+.weather_summary .weather-update div {
+	margin: 1rem 0;
+	font-size: .75rem;
+	margin-left: 2px;
+}
+  
+.weather_summary .weather-update p {
+	margin: 1rem 0;
+	font-size: .75rem;
+}
+.weather-img {
+	border-radius: 100px;
+	padding: 0.25rem;
+}
+.dayheading {
+	display: none;
+	text-align: center;
+}
+  
+.weekforecast {
+	display: none;
+}
+  
+.wsummary {
+	background: radial-gradient(grey, lightgray);
+	border: 1px solid black;
+	box-shadow: 0 0 30px black;
+	opacity: 0.94;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+  
+.wsummary h3 {
+	grid-column: 1 / 3;
+	text-align: center;
+	text-decoration: underline;
+	margin: 15px 10px 0px 10px;
+} 
+.wsummary ul {
+	list-style-type: none;
+	line-height: 1.5rem;
+}
+  
+.summaryname {
+	text-align: right;
+}
+.summaryvalues {
+	padding-left: 5px;
+}
+  

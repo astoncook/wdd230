@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+    <meta name="description" content="An Overview of the Storm Center.">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/nav.js" defer></script>
+    <script src="js/stormcenter.js" defer></script>
+</head>
+<body class="stormcenter-body">
+    <header>
+        <picture><img src="images/thedroplogo.webp" alt="Logo"></picture>
+        <section class="heading">
+            <h1>The Drop</h1>
+            <q class="sub">Keeping you dry since 2021!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="menu" href="#">Menu</a></li>
+            <li><a href="preston-4.html">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="/wdd230/lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="stormcenter">
+        <h2>Storm Center</h2>
+      <p>Please fill out the form to share details about storms in your area!</p>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label class="top" for="fullname"
+            >*Full Name:
+            <input
+              type="text"
+              name="fullname"
+              pattern="[a-zA-Z].{4,}"
+              required/></label>
+          <label class="top" for="email"
+            >Email:
+            <input type="email" name="email" placeholder="abc123@email.com"/></label>
+          <label class="top" for="phone"
+            >*Phone Number:</br><span class="extrainfo">(format 555-555-5555)</span>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="555-555-5555"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required/></label>
+          <label class="top" for="zipcode"
+            >*Zip Code: <input type="number" name="zipcode" pattern="[0-9]{5}" required/></label>
+        </fieldset>
+        <fieldset>
+          <legend>Storm Details</legend>
+          <label class="top" for="stormdate"
+            >Storm Date:
+            <input type="date" name="stormdate" placeholder="mm/dd/yyyy"/></label>
+          <label class="top" for="stormtype"
+            >Storm Type:
+            <datalist id="stormtype">
+              <select name="stormtype">
+                <option value="Flash Flood"></option>
+                <option value="Hail"></option>
+                <option value="Hurricane"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Tornado"></option>
+              </select>
+            </datalist>
+            <br><span class="extrainfo">If other, please specify</span>
+            <input type="text" name="stormtype" list="stormtype"/></label>
+          <label class="slider" for="stormseverity"
+            >Storm Severity:
+            <input type="range" name="stormseverity" value="1" min="1" max="10"
+              step="1" list="tickmarks" oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)"/>
+            <span id="ratingvalue">1</span></label>
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+        </datalist>
+          <label class="top" for="stormregion"
+            >Storm Region:
+            <select name="stormregion" id="selectregion">
+              <option value="" disabled selected>Select Region... &#9662;</option>
+              <option value="Preston">Preston</option>
+              <option value="Soda Springs">Soda Springs</option>
+              <option value="Fish Haven">Fish Haven</option>
+            </select>
+          </label>
+          <p class="label">Danger Level:</p>
+          <div class="dangerlevel">
+            <label class="sbs" for="yes">
+              <input type="radio" name="dangerlevel" /> yes</label>
+          </div>
+          <div class="dangerlevel">
+            <label class="sbs" for="maybe"
+              ><input type="radio" name="dangerlevel" /> maybe</label>
+          </div>
+          <div class="dangerlevel">
+            <label class="sbs" for="no"
+              ><input type="radio" name="dangerlevel" /> no</label>
+          </div>
+          <label class="top" for="additional"
+            >Additional Information: <input type="textarea" name="additional"/></label>
+        </fieldset>
+        <input type="submit" name="submit" value="Send Form" />
+      </form>
+    </main>
+    <footer>
+        <p>&copy;TheDrop | BYU-Idaho | Aston Cook<br>
+    </footer>
+</body>
+</html>
