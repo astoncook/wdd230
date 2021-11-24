@@ -125,5 +125,25 @@
 		background-color: grey;
 	}
 	/*end gallery*/
-
+	/*index*/
+	div.town_information {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: center;
+	}
+	  
+	div.town_information section {
+		display: grid;
+		grid-template-columns: auto;
+		width: auto;
+	}
+	  
+	div.town_information h2 {
+		font-size: 1.60rem;
+	}
+	  
+	  div.town_information section img {
+		margin: 0 auto;
+	}
+	/*end index*/
 }

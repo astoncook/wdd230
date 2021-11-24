@@ -25,7 +25,45 @@
 		padding: 3rem;
 		margin-top: 3rem;
 	}
+	/*index*/
+	div.town_information {
+		display: flex;
+		flex-wrap: wrap;
+	}
 	
+	div.town_information section {
+		text-align: left;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	
+	div.town_information section:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	
+	div.town_information section img {
+		margin: 0 auto;
+	}
+	
+	div.events {
+		margin-bottom: 5rem;
+		text-align: center;
+	}
+	
+	div.events img {
+		max-width: auto;
+		box-shadow: 0px 0px 30px grey;
+		display: inline;
+		margin: 0 50px 0 15px;
+	}
+	
+	div.events ul {
+		margin-left: 20px;
+		list-style-position: inside;
+		line-height: 1.25;
+	}
+	/*end index*/
 	.weather_summary {
 		width: fit-content;
 		margin: 0 0 2rem 1rem;
