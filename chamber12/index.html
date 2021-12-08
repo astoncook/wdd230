@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce- Home</title>
+    <meta name="description" content="This page includes my home page for chamber of commerce.">
+    <link rel="shortcut icon" href="/chamber12/austin.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/dates.js" defer></script>
+    <script src="js/weatherapi.js" defer></script>
+</head>
+<body>
+    <header>
+        <picture><img src="images/austin_logo.jpg" alt="Logo"></picture>
+        <section class="heading">
+            <h1>The Camber of Commerce</h1>
+            <q class="sub">Helping people live, work, and thive step by step!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="menu" href="#">Menu</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="">Local Companies</a></li>
+            <li><a href="">Membership</a></li>
+            <li><a href="">Local Events</a></li>
+            <li><a href="">Our Story</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Austin, Texas</h2>
+        <div class="herodiv">
+            <picture>
+                <source media="(max-width: 500px)"
+                srcset="images/hero-small.jpg">
+                <source media="(max-width: 950px)"
+                srcset="images/hero-medium.jpg">
+                <source media="(max-width: 1100px)"
+                srcset="images/hero-large.jpg">
+                <img src="images/hero-large.jpg" alt="austin city image">
+            </picture>
+            <section class="wsummary">
+                <h3>Weather Summary</h3>
+                <ul class="summaryname">
+                  <li>Currently:</li>
+                  <li>Current Temp:</li>
+                  <li>Humidity:</li>
+                </ul>
+                <ul class="summaryvalues">
+                  <li id="weathertype"></li>
+                  <li><span id="tempF"></span> &#176;F</li>
+                  <li><span id="humidity"></span>%</li>
+                </ul>
+              </section>
+            </div>
+            <h3 class="dayheading">3 Day Forecast</h3>
+            <div class="weekforecast">
+              <span class="dayofweek" id="dayofweek1"></span>
+              <span class="dayofweek" id="dayofweek2"></span>
+              <span class="dayofweek" id="dayofweek3"></span>
+              <span class="dailyicon" id="icon1"></span>
+              <span class="dailyicon" id="icon2"></span>
+              <span class="dailyicon" id="icon3"></span>
+              <p><span id="dailytemp1"></span>&#176;F</p>
+              <p><span id="dailytemp2"></span>&#176;F</p>
+              <p><span id="dailytemp3"></span>&#176;F</p>
+            </div>
+        <div class="articlediv">
+            <img src="images/article-image.jpg" class="article-img" alt="article image">
+                <h3>Austin City Limits Realeased Dates for 2022</h3>
+                <h4>by KXAN News</h4>
+                <p> The dates for the biggest festival in Austin have been released. This is a very exciting thing for most of the Austonians in the
+                    surrounding area. The dates are October 7-9 on week one and October 14-16 on week two. Some of the anouncers said the 3-day passes will go on sale
+                    starting this Thursday! Prices range from $275 for general admission for either weekend all the way to $4200 for the platnum pass for eith weekend.
+                    Make sure to have this date maked on your calender for this exiticng oppertunity of a lifetime. The artist lineup will be announced in the next few months
+                    on the ACL website.
+                </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2021 Austin<br>
+        <span id="date"></span></p>
+    </footer>
+</body>
+</html>

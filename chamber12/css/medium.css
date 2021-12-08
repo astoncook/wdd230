@@ -1,0 +1,130 @@
+@media only screen and (min-width: 32.5em) {
+	/*gallery*/
+	.gallery {
+		grid-template-columns: 1fr 1fr;
+		font-size: 1.3rem;
+	}
+	/*end gallery*/
+	/*storm center*/
+	form fieldset {
+		margin: 1rem auto;
+	  }
+	
+	  input[type="submit"] {
+		text-align: center;
+		padding: 1rem;
+		margin-bottom: 1.5rem;
+	  }
+	/*end storm center*/
+	.contactdiv img {
+		float: left;
+		width: 300px;
+		display: block;
+	}
+	.contactinfo {
+		padding: 3rem;
+		margin-top: 3rem;
+	}
+	/*index*/
+	div.town_information {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	div.town_information section {
+		text-align: left;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	
+	div.town_information section:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	
+	div.town_information section img {
+		margin: 0 auto;
+	}
+	
+	div.events {
+		margin-bottom: 5rem;
+		text-align: center;
+	}
+	
+	div.events img {
+		max-width: auto;
+		box-shadow: 0px 0px 30px grey;
+		display: inline;
+		margin: 0 50px 0 15px;
+	}
+	
+	div.events ul {
+		margin-left: 20px;
+		list-style-position: inside;
+		line-height: 1.25;
+	}
+	/*end index*/
+	.weather_summary {
+		width: fit-content;
+		margin: 0 0 2rem 1rem;
+    	margin-left: auto;
+   	 	margin-right: auto;
+    	width: 50%;
+	}
+	
+	.weather_summary h3 {
+		font-size: 1.5rem;
+	}
+	  
+	.weather_summary .weather-update div {
+		font-size: 1rem;
+	}
+	  
+	.weather_summary .weather-update p {
+		font-size: 1rem;
+	}
+	.articaldiv img{
+		float: right;
+	}
+	.contactdiv img {
+		float: left;
+		width: 300px;
+		display: block;
+	}
+	.contactinfo {
+		padding: 3rem;
+		margin-top: 3rem;	
+	}
+	.dayheading {
+		display: block;
+	  }
+	
+	.wsummary {
+		position: absolute;
+		top: 25px;
+		left: 25px;
+		margin: 0;
+	}
+	
+	.weekforecast {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		border: 2px solid black;
+		margin-bottom: 2rem;
+		grid-gap: 1px;
+	}	
+	.weekforecast .dailyicon {
+		width: auto;
+		margin: 0 auto;
+	}
+	
+	.dayofweek {
+		background-color: grey;
+		text-align: center;
+		color: white;
+	}
+	
+	.weekforecast p {
+		text-align: center;
+	}
+}
