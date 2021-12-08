@@ -62,7 +62,7 @@ h2 {
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color: #8AA29A;
+	background-color: #8AA2A9;
 }
 .navigation {
 	list-style: none;
@@ -321,9 +321,9 @@ div.events img {
 }
   
 .wsummary {
-	background: radial-gradient(grey, lightgray);
+	background: radial-gradient(#717C89, #8AA2A9);
 	border: 1px solid black;
-	box-shadow: 0 0 30px black;
+	box-shadow: 0 0 30px #90BAAD;
 	opacity: 0.94;
 	display: grid;
 	grid-template-columns: 1fr 1fr;

@@ -69,19 +69,17 @@
 	footer {
 		height: auto;
 	}
-	
-	.hero-img {
-		margin: 10px auto;
-		background-color: #eee;
-		border: 1px solid #333;
-		width: 100%;
-		height: auto;
+	.wsummary {
+		top: 300px;
+		left: 325px;
+		height: 200px;
 	}
+	
 	.herodiv {
 		margin: 10px auto;
 		position: relative;
 		border: 1px grey;
-		width: 960px;
+		width: 1100px;
 		height: auto;
 	}
 
@@ -90,7 +88,7 @@
 		height: auto;
 		float: right;
 		padding: .2rem;
-		box-shadow: 0 0 30px #777;
+		box-shadow: 0 0 30px #90BAAD;
 	}
 	.articlediv {
 		height: auto;
@@ -99,32 +97,10 @@
 		border: 1px grey;
 		background-color: #eee;
 	}
-	.contactdiv {
-		width: 65%;
-		height: auto;
-		background-color: lightgray;
-		font-size: 18px;
-	}
-	.contactdiv img {
-		width: 400px;
-		height: auto;
-		padding: 1rem;
-		margin-left: 1rem;
-	}
 	.weekforecast {
 		width: 800px;
 		margin: 0 auto;
 	}
-	/*gallery*/
-	.gallery {
-		grid-template-columns: 1fr 1fr 1fr;
-		font-size: 1.7rem;
-	}
-	.gallery picture:hover {
-		box-shadow: 15px 5px 8px grey;
-		background-color: grey;
-	}
-	/*end gallery*/
 	/*index*/
 	div.town_information {
 		display: grid;
