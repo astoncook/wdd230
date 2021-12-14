@@ -296,7 +296,6 @@ div.events img {
 }
 /*end index*/
 .contactdiv {
-	background-color: lightgray;
 	width: auto;
 	height: auto;
 	font-size: 14px;
@@ -349,4 +348,8 @@ div.events img {
 div.town_page_events {
 	margin-bottom: 2rem;
   }
+.social{
+	max-width: 50px;
+	padding: 2rem;
+}
   
