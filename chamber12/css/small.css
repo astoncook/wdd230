@@ -94,125 +94,43 @@ footer {
 	height: auto;
 	text-align: center;
 }
-
-/* gallery */
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-	font-size: 1rem;
-	width: 100%;
-}
-
-.gallery [data-src] {
-    filter: blur(.2em);
-}
-
-.gallery {
-    filter: blur(0em);
-    transition: filter 2s;
-}
-
-.gallery-heading {
-	font-size: 1.5rem;
-	text-align: center;
-	margin: 0 auto;
-	padding: 1rem;
-}
-
-/*storm center*/
-.stormcenter {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-	font-size: 1rem;
-	width: 100%;
-}
-.stormcenter-body {
-	padding: 0;
-	margin: 0;
-	font-size: 16px;
-}
-form fieldset {
-	margin: auto;
-	border: 2px solid grey;
-	border-radius: 10px;
-	max-width: 24rem;
-	background-color: rgb(118, 200, 228);
-	font-size: 1.1rem;
-  }
-  
-  legend {
-	background-color: rgb(118, 200, 228);
-	color: black;
-	padding: 10px 15px;
-	border-radius: 5px;
-	}
-  
-  form label.top,
-  form div,
-  .slider, form .label {
-	display: block;
-	padding-top: 1rem;
-	color: black;
-	font-weight: bold;
-  }
-  
-  form label.top input,
-  form label.top select {
-	-webkit-appearance: none;
-	display: block;
-	border: solid 1px grey;
-	border-radius: 4px;
-	padding: 0.75rem;
-	width: 100%;
-	max-width: 20rem;
-	margin: auto;
-	background-color: #FFFFFF;
-  }
-  
-  .label {
-	margin: 0;
-  }
-  
-  form input[type="textarea"] {
-	height: 10rem;
-	margin: auto;
-  }
-  
-  form label.top input:required {
-	border-left: black solid 10px ;
-  }
-  
-  form label.top input:required:invalid {
-	background-color: white;
-  }
-  
-  .slider {
+/*membership*/
+.membershipform {
 	display: flex;
-  }
-  
-  input[name="stormseverity"] {
-	margin: 0 .5rem;
-  }
-  
-  .extrainfo {
-	font-size: .75rem;
-	font-style: italic;
-  }
-  
-  input[type="submit"] {
-	background-color: lightblue;
-	padding: 1rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 75%;
+	background-color: #8AA2A9;
+}
+.membership-p {
+	margin: 20 auto;
 	text-align: center;
-	border-radius: 10px;
+	max-width: 75%;
+}
+.membership-details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 75%;
+}
+label {
+	padding: 0.5rem;
+	margin-top: 2rem;
   }
   
-  form label.sbs {
-	padding-top: 0;
-	color: black;
+  ul li ul {
+	margin-bottom: 20px;
+	margin-top: 10px;
   }
-/* end storm center */
+/*thanks*/
+.thanks {
+	text-align: center;
+	padding: 3rem;
+}
 /*index*/
 .weather-img {
 	border-radius: 100px;
@@ -351,5 +269,11 @@ div.town_page_events {
 .social{
 	max-width: 50px;
 	padding: 2rem;
+}
+iframe {
+	width: 86%;
+	text-align: center;
+	height: 30%;
+	margin: 10rem;
 }
   

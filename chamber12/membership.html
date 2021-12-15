@@ -20,7 +20,7 @@
     <header>
         <picture><img src="images/austin_logo.jpg" alt="Logo"></picture>
         <section class="heading">
-            <h1>The Camber of Commerce</h1>
+            <h1>The Chamber of Commerce</h1>
             <q class="sub">Helping people live, work, and thive step by step!</q>
         </section>
     </header>
@@ -28,29 +28,112 @@
         <ul class="navigation responsive">
             <li><a class="menu" href="#">Menu</a></li>
             <li><a href="/chamber12/index.html">Home</a></li>
-            <li><a href="/chamber12/local-companies.html">Local Companies</a></li>
             <li><a href="/chamber12/membership.html">Membership</a></li>
-            <li><a href="/chamber12/local-events.html">Local Events</a></li>
-            <li><a href="/chamber12/our-story.html">Our Story</a></li>
+            <li><a href="/chamber12/austin.html">Austin</a></li>
+            <li><a href="/chamber12/directory.html">Directory</a></li>
             <li><a href="/chamber12/contact-us.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
-        <div class="contactdiv">
-            <img src="images/austin-location.jpg" alt="map image">
-            <div class="contactinfo">
-            <p>Adress: 📍 Austin, TX 78701</p>
-            <ul></ul>
-            <p>Phone: 📱 512-478-9383</p>
-            <p>Email: 📧 AustinChamber@gmail.com</p>
-            <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.jpg" alt="facebook logo"/></a>
-              <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.jpg" alt="twitter logo"/></a>
-              <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.jpg" alt="instagram logo"/></a>
-            </div>
-        </div>    
+        <h2>Membership</h2>
+      <p class="membership-p">
+        Support us and we will support you! Depending on the membershup level you choose, you have the 
+        oppertunity to gain discounts on local events or even discounts for advertizing your local buissness.
+        Below we have a simple form that requires the following information with the "*" next to it.
+      </p>
+      <form method="get" action="thanks.html" class="membershipform">
+        <h3 class="legend">Individual Information</h3>
+        <label>First Name:*
+          <input type="text" name="fname" pattern="[a-zA-Z].{3,}" required
+        /></label>
+        <label>Last Name:*
+          <input type="text" name="lname" pattern="[a-zA-Z].{3,}" required
+        /></label>
+        <label>Title: 
+          <input type="text" name="title" 
+        /></label>
+        <label>Email:*
+          <input type="email" name="email" placeholder="123@email.com" required
+        /></label>
+        <label>Cell:<br /><span class="extrainfo">(format 555-555-5555)</span>
+          <input type="tel" name="phone" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        /></label>
+        <h3 class="legend">Business Information</h3>
+        <label>Business Name:* 
+          <input type="text" name="business" required
+        /></label>
+        <label>Business Address: 
+          <input type="text" name="address" 
+        /></label>
+        <label>Business Website: 
+          <input type="text" name="website" 
+        /></label>
+        <label>Business Description: 
+          <textarea name="additional"></textarea>
+        </label>
+        <p>Membership Level (Annual Fees)</p>
+        <div class="wrapper">
+          <label><input type="radio" id="non-profit" name="membershiplevel" value="Non-Profit"/>
+          Non-Profit ($100)
+          </label>
+        </div>
+        <div class="wrapper">
+          <label><input type="radio" id="bronze" name="membershiplevel" value="Bronze"/>
+          Bronze ($200)
+          </label>
+        </div>
+        <div class="wrapper">
+          <label><input type="radio" id="silver" name="membershiplevel" value="Silver"/>
+          Silver ($600)
+          </label>
+        </div>
+        <div class="wrapper">
+          <label><input type="radio" id="gold" name="membershiplevel" value="Gold"/>
+          Gold ($1,000)
+          </label>
+        </div>
+        <div class="button">
+          <input type="submit" name="submit" value="Send Form"/>
+        </div>
+      </form>
+      <div class="membership-details">
+      <h2>Membership Details</h2>
+          <h3>Non-Profit</h3>
+          <ul>
+            <li>10% off city apparal</li>
+            <li>First to get notification of new events</li>
+            <li>Enjoy the knowlege of supporting your amazing city</li>
+          </ul>
+          <h3>Bronze</h3>
+          <ul>
+            <li>All of "Non-Profits" perks</li>
+            <li>Free listing in the local companies page</li>
+            <li>50% off city apparal</li>
+            <li>50% off local advertizing on the website in different pages (ex. ACL Festival)</li>
+            <li>50% off sponserships at local events</li>
+            <li>1 free socail media post per month</li>
+          </ul>
+          <h3>Silver</h3>
+          <ul>
+            <li>All of "Bronze" perks</li>
+            <li>75% off city apparal</li>
+            <li>75% off local advertizing on the website in different pages (ex. ACL Festival)</li>
+            <li>75% off sponserships at local events</li>
+            <li>2 free socail media post per month</li>
+            </ul>
+          <h3>Gold</h3>
+          <ul>
+            <li>All of "Silver" perks</li>
+            <li>3 free pieces of city aparal per month</li>
+            <li>Free local advertizing on the website in different pages (ex. ACL Festival)</li>
+            <li>Free sponserships at local events</li>
+            <li>5 free socail media post per month</li>
+          </ul>
+      </ul>
+      </div>  
     </main>
     <footer>
-        <p>&copy;2021 Austin<br>
+        <p>&copy;2021 Austin Chamber of Commerce<br>
         <span id="date"></span></p>
     </footer>
 </body>

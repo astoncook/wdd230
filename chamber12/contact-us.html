@@ -20,7 +20,7 @@
     <header>
         <picture><img src="images/austin_logo.jpg" alt="Logo"></picture>
         <section class="heading">
-            <h1>The Camber of Commerce</h1>
+            <h1>The Chamber of Commerce</h1>
             <q class="sub">Helping people live, work, and thive step by step!</q>
         </section>
     </header>
@@ -28,14 +28,55 @@
         <ul class="navigation responsive">
             <li><a class="menu" href="#">Menu</a></li>
             <li><a href="/chamber12/index.html">Home</a></li>
-            <li><a href="/chamber12/local-companies.html">Local Companies</a></li>
             <li><a href="/chamber12/membership.html">Membership</a></li>
-            <li><a href="/chamber12/local-events.html">Local Events</a></li>
-            <li><a href="/chamber12/our-story.html">Our Story</a></li>
+            <li><a href="/chamber12/austin.html">Austin</a></li>
+            <li><a href="/chamber12/directory.html">Directory</a></li>
             <li><a href="/chamber12/contact-us.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
+        <h2>Contact Us</h2>
+        <form method="get" action="thanks.html" class="membershipform">
+            <h3 class="legend">Individual Information</h3>
+            <label>First Name:*
+              <input type="text" name="fname" pattern="[a-zA-Z].{3,}" required
+            /></label>
+            <label>Last Name:*
+              <input type="text" name="lname" pattern="[a-zA-Z].{3,}" required
+            /></label>
+            <label>Title: 
+              <input type="text" name="title" 
+            /></label>
+            <label>Email:*
+              <input type="email" name="email" placeholder="123@email.com" required
+            /></label>
+            <label>Cell:<br /><span class="extrainfo">(format 555-555-5555)</span>
+              <input type="tel" name="phone" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            /></label>
+            <div class="button">
+                <input type="submit" name="submit" value="Send Form"/>
+              </div>
+            
+      <h2>Board of Directors</h2>
+      <h3>Executive</h3>
+      <ul>
+          <li>Laura Huffman    | President & CEO</li>
+          <li>Colleen Pate     | Chief of Staff</li>
+      </ul>
+      <h3>Operations</h3>
+      <ul>
+          <li>Sarah LeNoir  | Director, Operations & Investor Relations</li>
+          <li>Emily Weisz  | Director, Operations & Culture</li>
+          <li>Terri Bolin  | Manager, Lobbby Operations</li>
+      </ul>
+      <h3>Finance</h3>
+      <ul>
+          <li>Leslie Gruver  | CFO & Senior Vice President</li>
+          <li>Maren Sandler  | Controller</li>
+          <li>Derek Starzynski  | Accounting Assistant</li>
+      </ul>
+      </form>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d440897.0680938774!2d-98.0335859619321!3d30.308055299999936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1639530746257!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div class="contactdiv">
             <img src="images/austin-location.jpg" alt="map image">
             <div class="contactinfo">
@@ -50,7 +91,7 @@
         </div>    
     </main>
     <footer>
-        <p>&copy;2021 Austin<br>
+        <p>&copy;2021 Austin Chamber of Commerce<br>
         <span id="date"></span></p>
     </footer>
 </body>

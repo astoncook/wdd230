@@ -1,0 +1,90 @@
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce- Home</title>
+    <meta name="description" content="This page includes my home page for chamber of commerce.">
+    <link rel="shortcut icon" href="/chamber12/austin.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="js/dates.js" defer></script>
+    <script src="js/nav.js" defer></script>
+    <script src="js/weatherapi.js" defer></script>
+</head>
+<body>
+    <header>
+        <picture><img src="images/austin_logo.jpg" alt="Logo"></picture>
+        <section class="heading">
+            <h1>The Chamber of Commerce</h1>
+            <q class="sub">Helping people live, work, and thive step by step!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a class="menu" href="#">Menu</a></li>
+            <li><a href="/chamber12/index.html">Home</a></li>
+            <li><a href="/chamber12/membership.html">Membership</a></li>
+            <li><a href="/chamber12/local-events.html">Austin</a></li>
+            <li><a href="/chamber12/directory.html">Directory</a></li>
+            <li><a href="/chamber12/contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="herodiv">
+            <picture>
+                <source media="(max-width: 500px)"
+                srcset="images/austin-small.jpg">
+                <source media="(max-width: 950px)"
+                srcset="images/austin-medium.jpg">
+                <source media="(max-width: 1100px)"
+                srcset="images/austin-large.jpg">
+                <img src="images/austin-large.jpg" alt="austin city image">
+            </picture>
+      <h3>Austin's History</h3>
+      <p>
+        In 1839 the city of Waterloo was chosen to be the capital of the Republic of Texas.
+        This city was quickly built and renamed after Stephen F. Austin. In 1888 the capital was built and
+        was the 7th largest building in the world at the time. Austin had some rough fallouts when the
+        Great Depression hit, but the city just had a little bump in the road.
+      </p>
+      <p>
+        By the 1950s Austin was becoming one of the hot spots for technology and new infustries. This trend went and
+        continued throughout the 1900s and starting in the first decade of the 2000s Austin quickly became a
+        hotspot for technology and new oppertunities. Recently we got the news that Tesla was moving their
+        headquarters to Austin and the riches man in the world, Elon Musk would be living here full time
+        while working on the comany.
+      </p>
+      <p>Check out the Austin Bullock Museum</p>
+        <p>They have movies and skydiving simulators!/p>
+        <p>For more information click 
+        <a href="https://www.thestoryoftexas.com/" target="_blank" rel="noopener noreferrer">here!</a>.
+        </p>
+      <h3>Current Demographics</h3>
+      <ul>
+        <li>Population: 973,720</li>
+        <li>Median Income: $39,418</li>
+        <li>Poverty Rate: 12.78%</li>
+        <li>Combined Crime per capita: 4225.58</li>
+        <li>Number of People Employed: 598,046</li>
+        <li>Median Age: 33.30</li>
+      </ul>
+
+      <img class="rightimg fish" src="images/bullock.jpg" width="400" height="300" alt="museum">
+      <h3>Also check out these fun things to do:</h3>
+      <ul class="demographics">
+        <li>Take the tour of the capital building</li>
+        <li>Hike the trail to overlook the 360 bridge</li>
+        <li>Go to Big Top candy shop</li>
+      </ul>
+    </main>
+    <footer>
+        <p>&copy;2021 Austin Chamber of Commerce<br>
+        <span id="date"></span></p>
+    </footer>
+</body>
+</html>
